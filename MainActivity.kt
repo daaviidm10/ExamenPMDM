@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     public fun cuentaDec(){
-        for (num in 100..0){
+        for (num in 100 downTo 0){
             Log.i("Cuenta decreciente desde 100 a 0", num.toString())
         }
         val bToast: Button =findViewById(R.id.botonDecre)
